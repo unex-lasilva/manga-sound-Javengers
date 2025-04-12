@@ -1,8 +1,20 @@
 import java.util.Scanner;
+import estruturas.ListaEncadeada;
 
 public class MangaSoundApplication {
+
+    static ListaEncadeada<Musica> repositorioMusicas = new ListaEncadeada<>();
+    static ListaEncadeada<String> artistas = new ListaEncadeada<>();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        // Remove esta linha de código duplicada
+        // ListaEncadeada<Musica> repositorioMusicas = new ListaEncadeada<>();
+
+        ListaEncadeada<ListaReproducao> listasReproducao = new ListaEncadeada<>();
+        ReprodutorLista reprodutorLista = new ReprodutorLista();
+
         SimpleAudioPlayer player = null;
 
         System.out.println("=====================================");
@@ -30,7 +42,20 @@ public class MangaSoundApplication {
 
             switch (opcao) {
                 case 1:
-                    System.out.println("\n🔹 Opção 1: Adicionar Música ao Repositório (Em Desenvolvimento)");
+                    System.out.print("Digite o título da música: ");
+                    String titulo = scanner.nextLine();
+
+                    System.out.print("Digite o artista: ");
+                    String artista = scanner.nextLine();
+
+                    System.out.print("Digite o caminho do arquivo .wav: ");
+                    String path = scanner.nextLine();
+
+                    Musica nova = new Musica(titulo, artista, path);
+                    repositorioMusicas.adicionar(nova);
+                    artistas.adicionar(artista);
+
+                    System.out.println("✅ Música adicionada ao repositório!");
                     break;
                 case 2:
                     System.out.println("\n🔹 Opção 2: Criar Lista de Reprodução (Em Desenvolvimento)");
