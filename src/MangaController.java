@@ -13,17 +13,16 @@ public class MangaController {
     public void adicionarMusica(String titulo, String path, String nomeArtista) {
         Musica musica = new Musica(titulo, nomeArtista, path);
 
-        // Adiciona ao repositório
+
         repositorio.adicionar(musica);
 
-        // Verifica se o artista já existe
         Artista artista = buscarArtista(nomeArtista);
         if (artista == null) {
             artista = new Artista(nomeArtista);
             artistas.adicionar(artista);
         }
 
-        // Adiciona a música ao artista
+
         artista.adicionarMusica(musica);
 
         System.out.println("✅ Música adicionada com sucesso!");
@@ -39,4 +38,6 @@ public class MangaController {
         }
         return null;
     }
+
 }
+
