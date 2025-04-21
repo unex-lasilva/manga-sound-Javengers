@@ -11,7 +11,6 @@ public class MangaSoundApplication {
 
 
 
-
         ListaEncadeada<ListaReproducao> listasReproducao = new ListaEncadeada<>();
         ReprodutorLista reprodutorLista = new ReprodutorLista();
 
@@ -126,8 +125,6 @@ public class MangaSoundApplication {
                         System.out.println("❌ Lista inválida.");
                     }
                     break;
-
-
 
 
                 case 5:

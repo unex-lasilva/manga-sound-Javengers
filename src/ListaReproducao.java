@@ -31,14 +31,14 @@ public class ListaReproducao {
 
                 musicas.remove(i);
 
-
-                musicas.remover(i);
-
                 break;
             }
         }
     }
 
 
+    public void removerMusicaPorPosicao(int posicao) {
+        musicas.remove(posicao);
+    }
 
 }
