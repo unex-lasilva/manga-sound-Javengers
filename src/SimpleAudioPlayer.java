@@ -1,3 +1,4 @@
+
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +12,7 @@ public class SimpleAudioPlayer {
     public SimpleAudioPlayer(String filePath) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         this.filePath = filePath;
         File audioFile = new File(filePath);
+
 
         if (!audioFile.exists()) {
             throw new IOException("Arquivo não encontrado: " + filePath);
@@ -41,6 +43,8 @@ public class SimpleAudioPlayer {
     }
 
     public void stop() {
+
+
 
 
         currentFrame = 0L;

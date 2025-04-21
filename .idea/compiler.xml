@@ -13,4 +13,9 @@
       <module name="manga-sound-template" target="17" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OAT 2" options="--add-exports java.base/jdk.internal.classfile=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

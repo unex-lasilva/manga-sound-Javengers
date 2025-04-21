@@ -19,6 +19,8 @@ public class ListaEncadeada<T> {
         }
 
 
+
+
         tamanho++;
     }
 
@@ -91,3 +93,4 @@ public class ListaEncadeada<T> {
     }
 
 }
+

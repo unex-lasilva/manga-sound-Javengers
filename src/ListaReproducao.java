@@ -31,10 +31,14 @@ public class ListaReproducao {
 
                 musicas.remove(i);
 
+
                 musicas.remover(i);
+
                 break;
             }
         }
     }
+
+
 
 }

@@ -1,7 +1,9 @@
 
+
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import java.io.IOException;
+
 
 
 public class ReprodutorLista {
@@ -14,11 +16,14 @@ public class ReprodutorLista {
             try {
                 player = new SimpleAudioPlayer(musica.getPath());
                 player.play();
+
+
                 Thread.sleep(5000); // Simulação de 5 segundos
                 player.stop();
             } catch (Exception e) {
                 System.out.println("Erro ao reproduzir: " + musica.getTitulo());
                 e.printStackTrace();
+
             }
         }
     }
@@ -36,3 +41,5 @@ public class ReprodutorLista {
                 e.printStackTrace();
             }
         }
+
+
