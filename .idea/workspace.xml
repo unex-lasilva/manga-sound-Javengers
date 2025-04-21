@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cd96723-c1e1-46cd-b90b-c7a2f9e92865" name="Changes" comment="" />
+    <list default="true" id="0cd96723-c1e1-46cd-b90b-c7a2f9e92865" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OAT 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-sound-Javengers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaReproducao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MangaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MangaSoundApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReprodutorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleAudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturas/ListaEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturas/No.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-sound-player/target/classes/br/com/mangarosa/MangaSoundApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-sound-player/target/classes/br/com/mangarosa/collections/ListaEncadeada.class" beforeDir="false" />
+
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,34 +45,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IgorAttack&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/unex-lasilva/manga-sound-Javengers.git&quot;,
+
+    &quot;accountId&quot;: &quot;0b080078-cba5-409c-b392-47c35ed77e78&quot;
+
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2uYUOaNaqfSjG2oz2QySYNBrJKE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MangaSoundApplication.executor": "Run",
     "JUnit.ListaEncadeadaTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/listadereproducao",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/lasilva/Documents/UNEX/GitHub-Templates/manga-sound-template/manga-sound/test/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.mangarosa.collections" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MangaSoundApplication">
+    <configuration name="MangaSoundApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MangaSoundApplication" />
+      <module name="OAT 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListaEncadeadaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manga-sound-player" />
       <extension name="coverage">
@@ -66,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MangaSoundApplication" />
         <item itemvalue="JUnit.ListaEncadeadaTest" />
       </list>
     </recent_temporary>
