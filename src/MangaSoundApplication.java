@@ -9,6 +9,7 @@ public class MangaSoundApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
         ListaEncadeada<ListaReproducao> listasReproducao = new ListaEncadeada<>();
         ReprodutorLista reprodutorLista = new ReprodutorLista();
 
@@ -55,6 +56,7 @@ public class MangaSoundApplication {
                     System.out.println("✅ Música adicionada ao repositório!");
                     break;
                 case 2:
+
                     System.out.print("Digite o nome da nova lista de reprodução: ");
                     String nomeLista = scanner.nextLine();
 
@@ -122,6 +124,7 @@ public class MangaSoundApplication {
                         System.out.println("❌ Lista inválida.");
                     }
                     break;
+
 
                 case 5:
                     System.out.println("\n✅ Fim! Obrigado por usar o MangaSound.");

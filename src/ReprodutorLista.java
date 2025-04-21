@@ -1,3 +1,9 @@
+
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+import java.io.IOException;
+
+
 public class ReprodutorLista {
     private SimpleAudioPlayer player;
 
@@ -21,6 +27,7 @@ public class ReprodutorLista {
         if (player != null) player.pause();
     }
 
+
     public void executar() {
         if (player != null) {
             try {
@@ -29,5 +36,3 @@ public class ReprodutorLista {
                 e.printStackTrace();
             }
         }
-    }
-}

@@ -41,12 +41,16 @@ public class SimpleAudioPlayer {
     }
 
     public void stop() {
+
+
         currentFrame = 0L;
         clip.stop();
         clip.close();
     }
 
+
     public boolean isPlaying() {
         return clip.isRunning();
     }
+
 }
