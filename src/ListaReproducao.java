@@ -28,13 +28,16 @@ public class ListaReproducao {
     public void removerMusicaPorTitulo(String tituloMusica) {
         for (int i = 0; i < musicas.getTamanho(); i++) {
             if (musicas.get(i).getTitulo().equalsIgnoreCase(tituloMusica)) {
+
                 musicas.remove(i);
+
                 break;
             }
         }
     }
 
     public void removerMusicaPorPosicao(int posicao) {
+
         musicas.remove(posicao);
     }
 }

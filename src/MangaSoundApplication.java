@@ -55,6 +55,7 @@ public class MangaSoundApplication {
                     System.out.println("✅ Música adicionada ao repositório!");
                     break;
                 case 2:
+
                     System.out.print("Digite o nome da nova lista de reprodução: ");
                     String nomeLista = scanner.nextLine();
 

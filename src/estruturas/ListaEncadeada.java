@@ -6,6 +6,7 @@ public class ListaEncadeada<T> {
 
     public void append(T valor) {
         No<T> novo = new No<>(valor);
+
         if (inicio == null) {
             inicio = novo;
         } else {
@@ -15,6 +16,7 @@ public class ListaEncadeada<T> {
             }
             atual.proximo = novo;
         }
+
         tamanho++;
     }
 
@@ -86,3 +88,4 @@ public class ListaEncadeada<T> {
         return inicio;
     }
 }
+
