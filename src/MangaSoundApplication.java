@@ -9,6 +9,9 @@ public class MangaSoundApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
+
+
         ListaEncadeada<ListaReproducao> listasReproducao = new ListaEncadeada<>();
         ReprodutorLista reprodutorLista = new ReprodutorLista();
 
@@ -89,7 +92,22 @@ public class MangaSoundApplication {
                     break;
 
                 case 3:
-                    System.out.println("\n🔹 Opção 3: Editar Lista de Reprodução (Em Desenvolvimento)");
+                    System.out.println("\nListas de reprodução disponíveis:");
+                    for (int i = 0; i < listasReproducao.getTamanho(); i++) {
+                        System.out.println(i + " - " + listasReproducao.get(i).getTitulo());
+                    }
+                    System.out.print("Digite o número da lista que deseja editar: ");
+                    int escolhaEditar = scanner.nextInt();
+                    scanner.nextLine();
+
+                    if (escolhaEditar >= 0 && escolhaEditar < listasReproducao.getTamanho()) {
+                        ListaReproducao listaParaEditar = listasReproducao.get(escolhaEditar);
+                        EditorListaEncadeada editor = new EditorListaEncadeada(listaParaEditar, scanner);
+                        editor.editar(); // Inicia o editor
+                        System.out.println("✅ Alterações salvas na lista: " + listaParaEditar.getTitulo());
+                    } else {
+                        System.out.println("❌ Índice inválido.");
+                    }
                     break;
 
                 case 4:
@@ -108,6 +126,9 @@ public class MangaSoundApplication {
                         System.out.println("❌ Lista inválida.");
                     }
                     break;
+
+
+
 
                 case 5:
                     System.out.println("\n✅ Fim! Obrigado por usar o MangaSound.");

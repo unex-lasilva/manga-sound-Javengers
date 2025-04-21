@@ -13,6 +13,7 @@ public class SimpleAudioPlayer {
         this.filePath = filePath;
         File audioFile = new File(filePath);
 
+
         if (!audioFile.exists()) {
             throw new IOException("Arquivo não encontrado: " + filePath);
         }
@@ -42,6 +43,9 @@ public class SimpleAudioPlayer {
     }
 
     public void stop() {
+
+
+
 
         currentFrame = 0L;
         clip.stop();
