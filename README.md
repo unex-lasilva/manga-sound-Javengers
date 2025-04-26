@@ -7,6 +7,67 @@ Um par de fone de ouvido, a sua lista de reprodução favorita e pronto: você e
 <img width="552" alt="image" src="https://github.com/user-attachments/assets/9873181b-511f-42d9-8cf5-5d5966515634" />
 
 
-# Equipe: <nome-da-equipe>
-1. <Nome de fulano>
-2. <Nome de fulana>
+# Equipe: Javengers
+1. Ícaro Vinhas
+2. Guilherme Brandão
+3. Igor Britto
+4. João Bonfin
+5. Diego
+
+Avaliação das PRs:	
+             <table border="1">
+  <thead>
+    <tr>
+      <th>Avaliador</th>
+      <th>Ícaro</th>
+      <th>Guilherme</th>
+      <th>Igor</th>
+      <th>João</th>
+      <th>Diego</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Ícaro</strong></td>
+      <td>*</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><strong>Guilherme</strong></td>
+      <td>9</td>
+      <td>*</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><strong>Igor</strong></td>
+      <td>10</td>
+      <td>9</td>
+      <td>*</td>
+      <td>9</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td><strong>João</strong></td>
+      <td>9</td>
+      <td>10</td>
+      <td>10</td>
+      <td>*</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td><strong>Diego</strong></td>
+      <td>9</td>
+      <td>8</td>
+      <td>10</td>
+      <td>8</td>
+      <td>*</td>
+    </tr>
+  </tbody>
+</table>
+		
+
